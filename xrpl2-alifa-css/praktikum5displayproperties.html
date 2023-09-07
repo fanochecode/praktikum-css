@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* display block */
+        .block-el{
+            display: block;
+            background-color: red;
+            width: 200px;
+            height: 100px;
+
+        }
+
+        /* display inline */
+        .inline-el{
+            display: inline;
+            background-color: blue;
+            padding: 10px;
+        }
+
+        /* display inline-block */
+        .inline-block-el{
+            display: inline-block;
+            background-color: red;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* display: flex */
+        .flex-con{
+            display: flex;
+            background-color: blueviolet;
+        }
+
+        /* display grid */
+        .grid-con{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-el">block element</div>
+    <br>
+    <span class="inline-el">inline element</span>
+    <br>
+    <div class="inline-block-el">inline block element</div>
+    <br>
+    <div class="flex-con">
+        <div>flex item 1</div>
+        <div>flex item 2</div>
+        <div>flex item 3</div>
+    </div>
+    
+    <div class="grid-con">
+        <div>grid item 1</div>
+        <div>grid item 2</div>
+        <div>grid item 3</div>
+        <div>grid item 4</div>
+    </div>
+
+</body>
+</html>
